@@ -1,0 +1,252 @@
+@media screen and (min-width: 1000px) {
+    .container{
+        .header{
+            background-image: url(/images/desktop/image-hero.jpg);
+            filter: brightness(90%);
+            display: flex;
+            flex-direction: column;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            padding: 4rem 11rem;
+            position: relative;
+            z-index: 1;
+            .navbar-menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                .loop-studio{
+                    width: 100%;
+                }
+                .hamburger{
+                    display: none;
+                }
+                .menu{
+                    width: auto;
+                    height: auto;
+                    position: static;
+                    background-color: transparent;
+                    top: 0;
+                    padding: 0rem 0rem;
+                    display: block;
+                    .sub-header{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0rem 1rem;
+                        display: none;
+                        .loop-studio{
+                            max-width: 50%;
+                        }
+                    }
+                    .sub-menu{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin-top: 0rem;
+                        margin-left: 0rem;
+                        .menu-item{
+                            margin-left: 2rem;
+                            font-size: 16px;
+                            color: white;
+                            text-transform:none ;
+                            padding: 0.8rem 0rem;
+                            font-family: 'Alata', sans-serif;
+                            cursor: pointer;
+                        }
+                        .menu-item:hover{
+                            border-bottom: 2px solid rgb(255, 255, 255);
+                        }
+                    }
+                }
+            }
+            .banner{
+                max-width: 60%;
+                font-size: 72px;
+                z-index: 10;
+                color: white;
+                margin: 10% 0rem;
+                padding: 2.5rem;
+                .span2{
+                    display: contents;
+                }
+
+            }
+        }
+        .vr{
+            position: relative;
+            display: flex;
+            text-align: center;
+            margin-top: 4rem;
+            padding: 0rem 9.7rem;
+            .interactive{
+                width: 60%;
+            }
+            .leader{
+                width: 40%;
+                position: absolute;
+                text-align: left;
+                top: 205px;
+                right: 180px;
+                padding: 5rem 2.5rem 5rem 5rem;
+                margin: 0rem 0rem;
+                background-color: white;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'Josefin Sans', sans-serif;
+                    padding-bottom: 1.3rem;
+                    font-weight: 200;
+                    font-size: 40px;
+                }
+                span{
+                    display: block;
+                }
+                p{
+                    font-family: 'Alata', sans-serif;
+                    line-height: 1.5rem;
+                    color: hsl(0, 0%, 55%);
+                    font-size: 15px;
+                    padding: 0rem 0rem;
+                }
+            }
+            
+            
+        }
+        .creations{
+            width: 100%;
+            text-align:left;
+            padding: 8rem ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 5rem;
+            .leader{
+                width: 97%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 5rem;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'Josefin Sans', sans-serif;
+                    padding-bottom: 0rem;
+                    font-weight: 200;
+                    font-size: 50px;
+                }
+                .seeall-desktop{
+                    display: block;
+                    margin-top: 0rem;
+                    margin-bottom: 0rem;
+                    width: 15%;
+                    border: 1px solid black;
+                    font-size: 15px;
+                    padding: 0.7rem 1rem; 
+                    text-transform: uppercase;
+                    font-family: 'Alata', sans-serif;
+                    letter-spacing: 0.3rem;
+                    display: flex;
+                    justify-content: center;
+                }
+                .seeall-desktop:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+            .gallary{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                gap: 2rem;
+                .image-box{
+                    position: relative;
+                    width: 100%;
+                    text-align: left;
+                    margin-bottom: 0rem;  
+                    box-shadow:  black 0 100px 0 0px inset;
+                    h3{
+                        position: absolute;
+                        color: white;
+                        font-size:24px;
+                        font-weight: 200;
+                        bottom: 20px;
+                        left: 20px;
+                        text-transform: uppercase;
+                        z-index: 999;
+                        span{
+                            display: block;
+                        }
+                    }
+                    .image-moblie{
+                        filter: brightness(0.80);
+                        width: 100%;
+                        display: none;
+                        
+                    }
+                    .image-desktop{
+                        display: block;
+                    }
+                }
+                
+            }
+            .seeall{
+                margin-top: 0.5rem;
+                margin-bottom: 6rem;
+                width: 50%;
+                border: 1px solid black;
+                font-size: 15px;
+                padding: 0.7rem 1rem; 
+                text-transform: uppercase;
+                font-family: 'Alata', sans-serif;
+                letter-spacing: 0.3rem;
+                display: none;
+            }
+            .seeall:hover{
+                background-color: black;
+                color: white;
+            }
+            
+        }
+        .footer{
+            text-align: center;
+            background-color: black;
+            padding: 0rem 9rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .footer-logo{
+                text-align:left ;
+                padding-top: 0rem;
+                .loop-studio{
+                    max-width: 30%;
+                }
+                .footer-menu{
+                    margin-top: 0.7rem;
+                    justify-content: left;
+                    display: flex;
+                    color: white;
+                    font-family: 'Alata', sans-serif;
+                    padding: 0rem 0rem;
+                    .footer-menu-item{
+                        padding-right: 2rem;
+                        padding-left: 0;
+                    }
+                }
+            }
+            .social{
+                text-align:right ;
+                padding-top: 2rem;
+                svg{
+                    margin: 0rem 0.3rem;
+                }
+                .copyright{
+                    font-family: 'Alata', sans-serif;
+                    color: hsl(0, 0%, 55%);
+                    font-size: 15px;
+                    margin-top: 1rem;
+                    padding-bottom: 4rem;
+                }
+            }
+    
+        }
+    }
+}

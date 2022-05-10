@@ -1,0 +1,41 @@
+.menu{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    padding: 2rem 1.5rem;
+    display: none;
+    animation-name: example;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    .sub-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem;
+        .loop-studio{
+            max-width: 50%;
+        }
+    }
+    .sub-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 8.5rem;
+        margin-left: 1.5rem;
+        .menu-item{
+            font-size: 28px;
+            color: white;
+            text-transform:uppercase ;
+            padding: 0.8rem 0rem;
+        }
+    }
+}
+.show{
+    display: block;
+}
+@keyframes example {
+    from {right: -400px;}
+    to {right: 0px;}
+}
